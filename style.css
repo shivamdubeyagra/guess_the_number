@@ -117,3 +117,45 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .left {
+    margin-top: 4rem;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .message {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: large;
+  }
+  h1 {
+    font-size: large;
+  }
+  .btn {
+    font-size: 2rem;
+    padding: 1rem 1rem;
+  }
+  .again {
+    font-size: large;
+  }
+  .number {
+    font-size: 4rem;
+    width: 10rem;
+    padding: 1.5rem 0rem;
+  }
+  .between {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-right: 5rem;
+  }
+}
